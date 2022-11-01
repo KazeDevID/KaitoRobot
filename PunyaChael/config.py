@@ -14,17 +14,17 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    API_ID = 11409845  # integer value, dont use ""
+    API_HASH = "76552be60c1cd08d4c0bac74cc4ab5ff"
+    TOKEN = "5364794116:AAH55YdMlCJ0ZAmDRaoKux0Fkwj0TKOKSl4"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 2135624454  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "KenalSayaaa"
-    SUPPORT_CHAT = "ItsMeKaze91"  # Your own group for support, do not add the @
+    SUPPORT_CHAT = "logsmenfessss"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001712376085
+        -1001692951318
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001640517196
+        -1001712376085
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
@@ -47,7 +47,7 @@ class Config(object):
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     TIGERS = get_user_list("elevated_users.json", "tigers")
     WOLVES = get_user_list("elevated_users.json", "whitelists")
-    DONATION_LINK = None  # EG, paypal
+    DONATION_LINK = "https://saweria.co/KazeDevID"  # EG, paypal
     CERT_PATH = None
     PORT = 5000
     DEL_CMDS = True  # Delete commands that users dont have access to, like delete /ban if a non admin uses it.
